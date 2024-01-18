@@ -27,7 +27,7 @@ public class Calculator implements ActionListener{
         textfield.setFont(myFont);
         //cannot click in the textbox
         textfield.setEditable(false);
-
+        //function buttons
         addButton = new JButton("+");
         subButton = new JButton("-");
         mulButton = new JButton("*");
