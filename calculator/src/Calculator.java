@@ -1,8 +1,10 @@
+//imports
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
 public class Calculator implements ActionListener{
+    //build Frame and Panel
     JFrame frame;
     JTextField textfield;
     JButton[] numberButtons = new JButton[10];
@@ -10,7 +12,7 @@ public class Calculator implements ActionListener{
     JButton addButton, subButton, mulButton, divButton;
     JButton decButton, equButton, delButton, clrButton, negButton;
     JPanel panel;
-
+    
     Font myFont = new Font("Ink Free", Font.BOLD, 30);
     double num1 = 0, num2 = 0, result =0; 
     char operator; 
